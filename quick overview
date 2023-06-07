@@ -1,0 +1,12 @@
+# BMD301-Final-Project--COVID-19-Waves
+The COVID-19 Genomic Sequencing and Comparative Analysis project aims to investigate the evolutionary dynamics and molecular characteristics of the SARS-CoV-2 virus, the pathogen responsible for COVID-19. By leveraging next-generation sequencing (NGS)-based methods and various bioinformatics tools, this project explores significant differences between different phases or waves of the pandemic.
+
+The project begins by acquiring COVID-19 data from the NCBI database, ensuring a comprehensive representation of viral sequences across different time points. Multiple sequence alignment techniques are then applied to the collected samples, allowing for the identification of conserved regions and variations within the viral genome.
+
+To understand the evolutionary relationships of different viral strains, a phylogenetic tree is generated using the aligned sequences. This visualization provides valuable insights into the genetic relatedness and diversification of SARS-CoV-2.
+
+In addition, the project incorporates the analysis of the spike protein, a key target for vaccine development and therapeutic interventions. By employing the Basic Local Alignment Search Tool (BLAST), the COVID-19 spike protein is aligned with spike proteins from other viral strains. This comparative analysis helps identify the most closely related proteins, facilitating a better understanding of the structural and functional aspects of the virus.
+
+To enhance the annotation and characterization of the identified proteins, data from reputable sources such as NCBI and Uniprot are utilized. By annotating the selected homologous protein, the project contributes to a comprehensive catalog of COVID-19 sequences, enabling researchers to study the evolution of infectious diseases over time.
+
+Through this project, we aim to provide valuable resources and insights into the genomic variations, evolutionary patterns, and potential therapeutic targets of SARS-CoV-2. By advancing our understanding of the virus, we strive to contribute to the development of effective measures, diagnostic tests, treatments, and vaccines against COVID-19.
