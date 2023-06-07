@@ -1,0 +1,280 @@
+BLASTN 2.9.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: database.fasta
+           5 sequences; 17,904 total letters
+
+
+
+Query= MK062181.1 SARS coronavirus Urbani isolate icSARS-C3, complete
+genome
+
+Length=29727
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+four KT182953.1 Middle East respiratory syndrome coronavirus isol...  45.4       1e-05
+two OK642747.1 Porcine epidemic diarrhea virus isolate XJ1904-34 ...  45.4       1e-05
+one HE616741.1 Bovine coronavirus S gene for spike protein, isola...  45.4       1e-05
+five AY497328.1 Murine hepatitis virus spike glycoprotein precurs...  43.6       4e-05
+
+
+>four KT182953.1 Middle East respiratory syndrome coronavirus 
+isolate MERS-CoV/KOR/KNIH/009_05_2015 spike protein (S) gene, 
+complete cds
+Length=4062
+
+ Score = 45.4 bits (24),  Expect = 1e-05
+ Identities = 40/48 (83%), Gaps = 0/48 (0%)
+ Strand=Plus/Plus
+
+Query  25068  AAATGGCCTTGGTATGTTTGGCTCGGCTTCATTGCTGGACTAATTGCC  25115
+              |||||||| |||||  ||||||| || ||||||||||| ||  |||||
+Sbjct  3880   AAATGGCCGTGGTACATTTGGCTTGGTTTCATTGCTGGGCTTGTTGCC  3927
+
+
+ Score = 32.5 bits (17),  Expect = 0.086
+ Identities = 25/29 (86%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  21456  GTTTCAAGTGATATTCTTGTTAACAACTA  21484
+              ||||| | |||| |||||||||||| |||
+Sbjct  15     GTTTCTACTGATGTTCTTGTTAACACCTA  43
+
+
+ Score = 32.5 bits (17),  Expect = 0.086
+ Identities = 41/53 (77%), Gaps = 0/53 (0%)
+ Strand=Plus/Plus
+
+Query  24147  TATAGGTTCAATGGCATTGGAGTTACCCAAAATGTTCTCTATGAGAACCAAAA  24199
+              |||||||| || ||  ||||  |||| ||| | ||||| |  |||||||||||
+Sbjct  2932   TATAGGTTAAACGGTGTTGGCATTACTCAACAGGTTCTTTCAGAGAACCAAAA  2984
+
+
+ Score = 28.8 bits (15),  Expect = 1.1
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  22152  AAGTTGCCTCTTGGT  22166
+              |||||||||||||||
+Sbjct  2182   AAGTTGCCTCTTGGT  2196
+
+
+ Score = 28.8 bits (15),  Expect = 1.1
+ Identities = 17/18 (94%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  23576  TATACCTACTAACTTTTC  23593
+              |||||||||||| |||||
+Sbjct  2343   TATACCTACTAATTTTTC  2360
+
+
+ Score = 27.0 bits (14),  Expect = 4.0
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  15640  TTCTTTCTGATGAT  15653
+              ||||||||||||||
+Sbjct  1517   TTCTTTCTGATGAT  1530
+
+
+>two OK642747.1 Porcine epidemic diarrhea virus isolate XJ1904-34 
+spike (S) gene, complete cds
+Length=4158
+
+ Score = 45.4 bits (24),  Expect = 1e-05
+ Identities = 34/39 (87%), Gaps = 0/39 (0%)
+ Strand=Plus/Plus
+
+Query  23877  AAGAGGTCTTTTATTGAGGACTTGCTCTTTAATAAGGTG  23915
+              || |||||||||||||| ||| |||| |||||||| |||
+Sbjct  2677   AAAAGGTCTTTTATTGAAGACCTGCTTTTTAATAAAGTG  2715
+
+
+ Score = 28.8 bits (15),  Expect = 1.1
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Minus
+
+Query  5995  AACACAAAATTTGCT  6009
+             |||||||||||||||
+Sbjct  1770  AACACAAAATTTGCT  1756
+
+
+ Score = 27.0 bits (14),  Expect = 4.0
+ Identities = 16/17 (94%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  27983  CACACCTAATGTTACTA  27999
+              ||||| |||||||||||
+Sbjct  639    CACACTTAATGTTACTA  655
+
+
+>one HE616741.1 Bovine coronavirus S gene for spike protein, isolate 
+VB 68/11/CAMAGUEY/2011, genomic RNA
+Length=4092
+
+ Score = 45.4 bits (24),  Expect = 1e-05
+ Identities = 46/56 (82%), Gaps = 3/56 (5%)
+ Strand=Plus/Plus
+
+Query  25037  TCAA-GA-ATTGGGAAAATATGAGCAATATATTAAATGGCCTTGGTATGTTTGGCT  25090
+              |||| || ||| || | ||||||| | ||| | ||||||||||||||||| |||||
+Sbjct  3881   TCAAGGACATT-GGTACATATGAGTATTATGTAAAATGGCCTTGGTATGTATGGCT  3935
+
+
+ Score = 27.0 bits (14),  Expect = 4.0
+ Identities = 16/17 (94%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  25927  TACAGACACTGGTATTG  25943
+              ||||||||||||| |||
+Sbjct  669    TACAGACACTGGTGTTG  685
+
+
+ Score = 27.0 bits (14),  Expect = 4.0
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  22312  ATGCTGTTGATTGT  22325
+              ||||||||||||||
+Sbjct  845    ATGCTGTTGATTGT  858
+
+
+ Score = 27.0 bits (14),  Expect = 4.0
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  20060  ATCAGTAAAAACAC  20073
+              ||||||||||||||
+Sbjct  1410   ATCAGTAAAAACAC  1397
+
+
+ Score = 27.0 bits (14),  Expect = 4.0
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  8064  TGTAGCTTTAGATG  8077
+             ||||||||||||||
+Sbjct  1632  TGTAGCTTTAGATG  1619
+
+
+ Score = 27.0 bits (14),  Expect = 4.0
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  17320  GTGTTGTCAATGCT  17333
+              ||||||||||||||
+Sbjct  2198   GTGTTGTCAATGCT  2211
+
+
+ Score = 27.0 bits (14),  Expect = 4.0
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  13454  TGATGTCGTCTACA  13467
+              ||||||||||||||
+Sbjct  2683   TGATGTCGTCTACA  2670
+
+
+>five AY497328.1 Murine hepatitis virus spike glycoprotein precursor 
+(S) mRNA, complete cds
+Length=3975
+
+ Score = 43.6 bits (23),  Expect = 4e-05
+ Identities = 48/59 (81%), Gaps = 6/59 (10%)
+ Strand=Plus/Plus
+
+Query  25033  ACCTTCAA-GAATTGGGAAAATATGAGCAATATAT-T-AAATGGCCTTGGTATGTTTGG  25088
+              ||| |||| ||| | || | ||||||  ||| ||| | |||||||||||||||||||||
+Sbjct  3752   ACC-TCAAGGAAGTTGGCACATATGA--AATGTATGTGAAATGGCCTTGGTATGTTTGG  3807
+
+
+ Score = 28.8 bits (15),  Expect = 1.1
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  25637  ATTATGAGATGTTGGCTTTGT  25657
+              |||||  ||||||||||||||
+Sbjct  2643   ATTATCTGATGTTGGCTTTGT  2663
+
+
+ Score = 27.0 bits (14),  Expect = 4.0
+ Identities = 16/17 (94%), Gaps = 0/17 (0%)
+ Strand=Plus/Minus
+
+Query  12254  ACAAGAGGGCAAAAGTA  12270
+              |||||||||||||| ||
+Sbjct  36     ACAAGAGGGCAAAAATA  20
+
+
+ Score = 27.0 bits (14),  Expect = 4.0
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  180   TTCTGCAGACTGCT  193
+             ||||||||||||||
+Sbjct  1229  TTCTGCAGACTGCT  1242
+
+
+ Score = 27.0 bits (14),  Expect = 4.0
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  8092  TTCGTGTCAGCTGC  8105
+             ||||||||||||||
+Sbjct  1269  TTCGTGTCAGCTGC  1282
+
+
+ Score = 27.0 bits (14),  Expect = 4.0
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  19449  TACTTGGATGCATA  19462
+              ||||||||||||||
+Sbjct  2543   TACTTGGATGCATA  2556
+
+
+ Score = 27.0 bits (14),  Expect = 4.0
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  25024  CACTCATTGACCTT  25037
+              ||||||||||||||
+Sbjct  3245   CACTCATTGACCTT  3232
+
+
+ Score = 27.0 bits (14),  Expect = 4.0
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  2041  AACAGTGTCATTAT  2054
+             ||||||||||||||
+Sbjct  3508  AACAGTGTCATTAT  3521
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 528903428
+
+
+  Database: database.fasta
+    Posted date:  Jul 4, 2022  10:17 PM
+  Number of letters in database: 17,904
+  Number of sequences in database:  5
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

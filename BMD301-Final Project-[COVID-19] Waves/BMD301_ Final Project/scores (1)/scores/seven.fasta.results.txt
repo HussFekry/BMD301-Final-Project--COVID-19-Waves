@@ -1,0 +1,212 @@
+BLASTN 2.9.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: database.fasta
+           5 sequences; 17,904 total letters
+
+
+
+Query= OM222064.1 Bat SARS-like coronavirus isolate 200609 spike protein
+gene, complete cds
+
+Length=3729
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+four KT182953.1 Middle East respiratory syndrome coronavirus isol...  63.9       4e-12
+two OK642747.1 Porcine epidemic diarrhea virus isolate XJ1904-34 ...  39.9       6e-05
+five AY497328.1 Murine hepatitis virus spike glycoprotein precurs...  32.5       0.011
+one HE616741.1 Bovine coronavirus S gene for spike protein, isola...  28.8       0.14 
+three MT230575.1 Avian coronavirus isolate CK/CR/327/18 spike pro...  25.1       1.8  
+
+
+>four KT182953.1 Middle East respiratory syndrome coronavirus 
+isolate MERS-CoV/KOR/KNIH/009_05_2015 spike protein (S) gene, 
+complete cds
+Length=4062
+
+ Score = 63.9 bits (34),  Expect = 4e-12
+ Identities = 62/76 (82%), Gaps = 0/76 (0%)
+ Strand=Plus/Plus
+
+Query  2616  TTATAGGTTTAATGGCATTGGAGTTACTCAAAACGTTCTCTATGAGAACCAAAAGCTGAT  2675
+             ||||||||| || ||  ||||  |||||||| | ||||| |  |||||||||||||| ||
+Sbjct  2931  TTATAGGTTAAACGGTGTTGGCATTACTCAACAGGTTCTTTCAGAGAACCAAAAGCTTAT  2990
+
+Query  2676  AGCCAATCAGTTTAAT  2691
+              |||||| ||||||||
+Sbjct  2991  TGCCAATAAGTTTAAT  3006
+
+
+ Score = 41.7 bits (22),  Expect = 2e-05
+ Identities = 77/104 (74%), Gaps = 2/104 (2%)
+ Strand=Plus/Plus
+
+Query  3483  CCTAAATGAATCACTCATTGACCTCCAAGAACTTGGGAAATATGAGC-AATATATCAAGT  3541
+             ||| ||||| ||   ||| |||||  |||| ||||| || ||| |   | || | ||| |
+Sbjct  3825  CCTTAATGAGTCTTACATAGACCTTAAAGAGCTTGGCAATTAT-ACTTATTACAACAAAT  3883
+
+Query  3542  GGCCGTGGTATGTTTGGCTCGGCTTTATTGCTGGACTAATTGCC  3585
+             ||||||||||  ||||||| || || |||||||| ||  |||||
+Sbjct  3884  GGCCGTGGTACATTTGGCTTGGTTTCATTGCTGGGCTTGTTGCC  3927
+
+
+ Score = 28.8 bits (15),  Expect = 0.14
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  1365  TTCTGATGATGGCAA  1379
+             |||||||||||||||
+Sbjct  1926  TTCTGATGATGGCAA  1940
+
+
+ Score = 23.3 bits (12),  Expect = 6.5
+ Identities = 12/12 (100%), Gaps = 0/12 (0%)
+ Strand=Plus/Minus
+
+Query  2516  TTGCTGCATACA  2527
+             ||||||||||||
+Sbjct  2745  TTGCTGCATACA  2734
+
+
+>two OK642747.1 Porcine epidemic diarrhea virus isolate XJ1904-34 
+spike (S) gene, complete cds
+Length=4158
+
+ Score = 39.9 bits (21),  Expect = 6e-05
+ Identities = 33/39 (85%), Gaps = 0/39 (0%)
+ Strand=Plus/Plus
+
+Query  2347  AAGAGATCATTTATTGAAGACCTGCTCTTCAACAAAGTG  2385
+             || || || ||||||||||||||||| || || ||||||
+Sbjct  2677  AAAAGGTCTTTTATTGAAGACCTGCTTTTTAATAAAGTG  2715
+
+
+ Score = 36.2 bits (19),  Expect = 8e-04
+ Identities = 29/34 (85%), Gaps = 0/34 (0%)
+ Strand=Plus/Plus
+
+Query  3525  TGAGCAATATATCAAGTGGCCGTGGTATGTTTGG  3558
+             ||||  |||| |||||||||||||||  ||||||
+Sbjct  3957  TGAGACATATGTCAAGTGGCCGTGGTGGGTTTGG  3990
+
+
+ Score = 25.1 bits (13),  Expect = 1.8
+ Identities = 20/23 (87%), Gaps = 1/23 (4%)
+ Strand=Plus/Plus
+
+Query  1687  TGC-TCTTTTGGTGGTGTTAGTG  1708
+             ||| ||||||||||||  |||||
+Sbjct  1554  TGCGTCTTTTGGTGGTCCTAGTG  1576
+
+
+>five AY497328.1 Murine hepatitis virus spike glycoprotein precursor 
+(S) mRNA, complete cds
+Length=3975
+
+ Score = 32.5 bits (17),  Expect = 0.011
+ Identities = 43/56 (77%), Gaps = 0/56 (0%)
+ Strand=Plus/Plus
+
+Query  3503  ACCTCCAAGAACTTGGGAAATATGAGCAATATATCAAGTGGCCGTGGTATGTTTGG  3558
+             ||||| | ||| |||| | ||||||    ||| | || ||||| ||||||||||||
+Sbjct  3752  ACCTCAAGGAAGTTGGCACATATGAAATGTATGTGAAATGGCCTTGGTATGTTTGG  3807
+
+
+ Score = 28.8 bits (15),  Expect = 0.14
+ Identities = 17/18 (94%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  2658  TGAGAACCAAAAGCTGAT  2675
+             ||||||||||||| ||||
+Sbjct  2901  TGAGAACCAAAAGATGAT  2918
+
+
+ Score = 25.1 bits (13),  Expect = 1.8
+ Identities = 13/13 (100%), Gaps = 0/13 (0%)
+ Strand=Plus/Minus
+
+Query  3494  CACTCATTGACCT  3506
+             |||||||||||||
+Sbjct  3245  CACTCATTGACCT  3233
+
+
+ Score = 23.3 bits (12),  Expect = 6.5
+ Identities = 14/15 (93%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  400   TGTAATTTTAACTTA  414
+             ||||||||||| |||
+Sbjct  1060  TGTAATTTTAATTTA  1074
+
+
+>one HE616741.1 Bovine coronavirus S gene for spike protein, isolate 
+VB 68/11/CAMAGUEY/2011, genomic RNA
+Length=4092
+
+ Score = 28.8 bits (15),  Expect = 0.14
+ Identities = 30/37 (81%), Gaps = 2/37 (5%)
+ Strand=Plus/Plus
+
+Query  2662  AACCAAAAGCTGATAGCCAAT-CAGTTTAATAGTGCT  2697
+             ||||||||||| || || ||| || ||||| | ||||
+Sbjct  3037  AACCAAAAGCTTATTGCTAATGCA-TTTAACAATGCT  3072
+
+
+ Score = 27.0 bits (14),  Expect = 0.50
+ Identities = 27/33 (82%), Gaps = 2/33 (6%)
+ Strand=Plus/Plus
+
+Query  3305  TTAATAACACTGTTT-ATGACCCTCTGCAACCT  3336
+             ||||||||||| ||| | |||   |||||||||
+Sbjct  2138  TTAATAACACTCTTTCACGACAG-CTGCAACCT  2169
+
+
+ Score = 25.1 bits (13),  Expect = 1.8
+ Identities = 13/13 (100%), Gaps = 0/13 (0%)
+ Strand=Plus/Plus
+
+Query  2590  CAAATACCATTTG  2602
+             |||||||||||||
+Sbjct  503   CAAATACCATTTG  515
+
+
+>three MT230575.1 Avian coronavirus isolate CK/CR/327/18 spike 
+protein (S1) gene, partial cds
+Length=1617
+
+ Score = 25.1 bits (13),  Expect = 1.8
+ Identities = 13/13 (100%), Gaps = 0/13 (0%)
+ Strand=Plus/Plus
+
+Query  1918  GGTGCAGGCGTTT  1930
+             |||||||||||||
+Sbjct  559   GGTGCAGGCGTTT  571
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 66107754
+
+
+  Database: database.fasta
+    Posted date:  Jul 4, 2022  10:17 PM
+  Number of letters in database: 17,904
+  Number of sequences in database:  5
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
